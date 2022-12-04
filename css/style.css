@@ -101,6 +101,7 @@ p {
 .page-main__header--title::before {
     content: url("images/highlight.png");
     margin-right: 12px;
+    width: 4px;
 }
 
 .page-main__overflow {
@@ -182,6 +183,7 @@ p {
 .page-main__body__readMore ::before {
     content: url("images/icon.png");
     margin-right: 16px;
+    width: 8px;
 }
 
 .page-main__body--image {
