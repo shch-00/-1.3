@@ -351,9 +351,11 @@ p {
         margin-right: 25px;
         padding: 0;
         height: auto;
+        max-height: 82px;
         width: auto;
         flex-wrap: wrap;
         justify-content: flex-start;
+        row-gap: 10px;
     }
     .page-main__menu--bordered--brands {
         width: 233px;
