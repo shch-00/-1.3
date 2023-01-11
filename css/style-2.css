@@ -15,27 +15,25 @@ body {
 header {
     width: 100%;
     height: 86px;
-    /*padding-left: 15px;*/
-    /*padding-top: 15px;*/
     position: relative;
 }
 
-.header {
+.page-header {
     display: inline-block;
     position: absolute;
     top: 50%;
 }
 
-.burger-button,
-.search-button {
+.page-header--burger-button,
+.page-header--search-button {
     margin-top: -20px;
 }
 
-.burger-button {
+.page-header--burger-button {
     left: 0;
 }
 
-.burger-button::before {
+.page-header--burger-button::before {
     content: "";
     position: fixed;
     top: 0;
@@ -49,7 +47,7 @@ header {
     transform: translate(32px, 42px) rotate(45deg);
 }
 
-.burger-button::after {
+.page-header--burger-button::after {
     content: "";
     position: fixed;
     top: 0;
@@ -63,9 +61,9 @@ header {
     transform: translate(32px, 42px) rotate(-45deg);
 }
 
-.search-button {
+.page-header--search-button {
     left: 232px;
-    background-image: url("images/search.png");
+    background-image: url("images/search.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -149,35 +147,35 @@ footer {
     display: inline-block;
 }
 
-.footer {
+.page-footer {
     margin-right: 16px;
     padding: 0;
 }
 
-.call-button {
-    background-image: url("images/call.png");
+.page-footer--call-button {
+    background-image: url("images/call.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
-.chat-button {
-    background-image: url("images/chat.png");
+.page-footer--chat-button {
+    background-image: url("images/chat.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
-.profile-button {
-    background-image: url("images/profile.png");
+.page-footer--profile-button {
+    background-image: url("images/profile.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
-.email {
+.page-footer--email {
     margin-top: 16px;
     margin-bottom: 12px;
 }
 
-.number {
+.page-footer--number {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 40px;
@@ -198,7 +196,7 @@ footer {
 }
 
 .nav-list a:hover,
-.email a:hover,
+.page-footer--email a:hover,
 .language a:hover {
     color: #7E7E82;
     transition: color 100ms;
@@ -211,7 +209,7 @@ footer {
 }
 
 @media (min-height: 724px) and (max-height: 741.98px) {
-    .number {
+    .page-footer--number {
         margin-bottom: 3vh;
     }
     footer {
