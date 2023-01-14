@@ -2,78 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="css/style-2.css" rel="stylesheet">
+    <link href="css/style-5.css" rel="stylesheet">
+    <link rel="stylesheet" href="swiper.min.css">
     <title>CPS Сервис по ремонту техники</title>
 </head>
 <body>
-        <header>
-            <button class="page-header button page-header--burger-button"></button>
-            <div class="page-header logo"><img src="images/main-logo.svg" alt="logo"></div>
-            <button class="page-header button page-header--search-button"></button>
-        </header>
-        <main>
-            <ul class="nav">
-                <li class="nav-list nav-active">
-                    <a href="/repair">
-                      Ремонт техники
-                    </a>
-                </li>
-                <li class="nav-list">
-                    <a href="/services">
-                        Услуги и сервисы
-                    </a>
-                </li>
-                <li class="nav-list">
-                    <a href="/co-clients">
-                        Корпоративным клиентам
-                    </a>
-                </li>
-                <li class="nav-list">
-                    <a href="/sellers">
-                        Продавцам техники
-                    </a>
-                </li>
-                <li class="nav-list">
-                    <a href="/partners">
-                        Партнерам
-                    </a>
-                </li>
-                <li class="nav-list">
-                    <a href="/manufacturers">
-                        Производителям
-                    </a>
-                </li>
-                <li class="nav-list">
-                    <a href="/centers">
-                        Наши сервисные центры
-                    </a>
-                </li>
-                <li class="nav-list">
-                    <a href="/contacts">
-                        Контакты
-                    </a>
-                </li>
-            </ul>
-        </main>
-        <footer>
-            <button class="button page-footer page-footer--call-button">
-                <a href="/call"></a>
-            </button>
-            <button class="button page-footer page-footer--chat-button">
-                <a href="/chat"></a>
-            </button>
-            <button class="button page-footer page-footer--profile-button">
-                <a href="/profile"></a>
-            </button>
-            <div class="page-footer--email">
-                <a href="mailto:mail@cps.com">mail@cps.com</a>
+    <header class="page-header">
+        <h1 class="page-header__title">
+            Ремонт техники различных брендов
+        </h1>
+    </header>
+    <main class="page-main">
+        <div class="slider-container">
+            <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide page-main__slides page-main__slide--1" id="lenovo">
+                        <button class="swiper-slide__show-more"></button>
+                    </li>
+                    <li class="swiper-slide page-main__slides page-main__slide--2" id="samsung">
+                        <button class="swiper-slide__show-more"></button>
+                    </li>
+                    <li class="swiper-slide page-main__slides page-main__slide--3" id="apple">
+                        <button class="swiper-slide__show-more"></button>
+                    </li>
+                    <li class="swiper-slide page-main__slides page-main__slide--4" id="vs">
+                        <button class="swiper-slide__show-more"></button>
+                    </li>
+                    <li class="swiper-slide page-main__slides page-main__slide--5" id="bosch">
+                        <button class="swiper-slide__show-more"></button>
+                    </li>
+                    <li class="swiper-slide page-main__slides page-main__slide--6" id="hp">
+                        <button class="swiper-slide__show-more"></button>
+                    </li>
+                    <li class="swiper-slide page-main__slides page-main__slide--7" id="acer">
+                        <button class="swiper-slide__show-more"></button>
+                    </li>
+                    <li class="swiper-slide page-main__slides page-main__slide--8" id="sony">
+                        <button class="swiper-slide__show-more"></button>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="page-footer--number">
-                <a href="tel:+78008908900">8 800 890 8900</a>
-            </div>
-            <span class="language ru chosen"><a href="/ru">ru</a></span>
-            <span class="language en"><a href="/en">en</a></span>
-            <span class="language ch"><a href="/ch">ch</a></span>
-        </footer>
+        </div>
+    </main>
+    <script src="swiper.min.js"></script>
+    <script src="slider.js"></script>
 </body>
 </html>
