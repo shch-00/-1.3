@@ -73,7 +73,7 @@ header {
     margin-top: -28px;
 }
 
-main {
+nav {
     font-family: "TT Lakes", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -181,8 +181,15 @@ footer {
     margin-bottom: 40px;
 }
 
+.page-footer__language-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .language {
     text-transform: uppercase;
+    display: inline-block;
 }
 
 .chosen a {
