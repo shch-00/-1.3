@@ -1,0 +1,154 @@
+@media screen and (min-width: 768px) {
+
+    .vertical-line--left,
+    .page-header__btn--call,
+    .page-header__btn--chat,
+    .page-header__btn--profile,
+    .promo__description-part-2 {
+        display: inherit;
+    }
+
+    .page-header--left,
+    .page-header--right {
+        width: max-content;
+    }
+
+    .page-header__btn--burger {
+        margin-left: 24px;
+    }
+
+    .page-header__logo {
+        margin-left: 20px;
+    }
+
+    .vertical-line--left {
+        margin-left: 20px;
+    }
+
+    .vertical-line--right {
+        margin-left: 20px;
+        margin-right: 4px;
+    }
+
+    .page-header__btn--status {
+        margin-right: 24px;
+    }
+
+    .page-main {
+        margin-top: 24px;
+    }
+
+    .page-main__article,
+    .page-nav,
+    .promo__description {
+        margin-left: 24px;
+    }
+
+    .page-main__article::before {
+        left: -60px;
+    }
+
+    .promo {
+        display: flex;
+        padding-top: 32px;
+        align-items: flex-start;
+    }
+
+    .promo__description,
+    .promo__img {
+        display: inline-block;
+        padding-top: 0;
+    }
+
+    .promo__description {
+        padding-right: 48px;
+    }
+
+    .promo__img {
+        border-radius: 6px;
+    }
+
+}
+
+
+@media screen and (min-width: 1120px) {
+
+    .page-header {
+        display: none;
+    }
+
+    .page-main {
+        margin-top: 42px;
+    }
+
+    .page-main__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-main__article {
+        margin-left: 32px;
+    }
+
+    .page-main__article::before {
+        left: -67px;
+    }
+
+    .page-main__btn-section {
+        display: flex;
+    }
+
+    .page-main__message,
+    .page-main__status {
+        display: flex;
+        height: max-content;
+        margin-right: 32px;
+        align-items: center;
+    }
+
+    .page-main__message--text,
+    .page-main__status--text {
+        display: inline-block;
+        height: min-content;
+    }
+
+    .page-main__article,
+    .page-nav,
+    .promo__description {
+        margin-left: 32px;
+    }
+
+    .page-nav {
+        overflow: auto;
+    }
+
+    .page-nav::after {
+        display: none;
+    }
+
+    .page-nav__list {
+        width: 95%;
+    }
+
+    .promo {
+        padding-top: 18px;
+        padding-right: 32px;
+    }
+
+    .promo__description {
+        padding-right: 36px;
+    }
+
+    .promo__description-part-2 {
+        display: inline;
+    }
+
+    .promo__description-part-3 {
+        display: inline;
+    }
+
+    .promo__read-more {
+        display: block;
+    }
+
+}

@@ -1,0 +1,9 @@
+html, body, header, div, button, main, h1, span, nav, ul, li, p, img {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+body, html {
+    overflow-x: hidden;
+}
