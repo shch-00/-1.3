@@ -1,7 +1,3 @@
-@font-face {
-    font-family: "TT Lakes", sans-serif;
-}
-
 .vertical-line--left,
 .page-header__btn--call,
 .page-header__btn--chat,
@@ -13,7 +9,7 @@
 }
 
 body {
-    font-family: "TT Lakes", sans-serif;
+    font-family: TT Lakes, sans-serif;
     background-color: #F8F8F8;
 }
 
