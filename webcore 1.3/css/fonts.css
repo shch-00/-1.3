@@ -1,6 +1,8 @@
 @font-face {
   font-family: "TT Lakes";
+  src: url(../webcore 1.3/fonts/TTLakes-Regular.eot);
+  src: url(../webcore 1.3/fonts/TTLakes-Regular.woff) format ("woff");
+  src: url(../webcore 1.3/fonts/TTLakes-Regular.ttf) format ("truetype");
   font-style: normal;
   font-weight: 400;
-  src: url(../webcore 1.3/fonts/TTLakes-Regular.ttf);
 }
